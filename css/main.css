@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*ДЕСКТОП*/
 /*Главная страница*/
 .home {
   position: relative;
@@ -13,6 +14,7 @@
 }
 
 .home__container {
+  position: relative;
   width: 1164px;
   margin: 0 auto;
   padding-top: 47px;
@@ -43,6 +45,10 @@
   font-size: 18px;
   color: #ffffff;
   margin-right: 35px;
+}
+
+.home__link:nth-child(4) {
+  margin-right: 0;
 }
 
 .home__sub-container2 {
@@ -80,36 +86,40 @@
 }
 
 .home__search {
+  position: relative;
+}
+
+.search__input {
   width: 475px;
   height: 62px;
   border-radius: 31px;
   background-color: #ffffff;
-  position: relative;
   padding-left: 69px;
+  padding-right: 105px;
   font-family: Cabin;
   font-size: 19px;
   color: #000;
 }
 
-.home__search::-webkit-input-placeholder {
+.search__input::-webkit-input-placeholder {
   font-family: Cabin;
   font-size: 19px;
   color: #bdd3df;
 }
 
-.home__search:-ms-input-placeholder {
+.search__input:-ms-input-placeholder {
   font-family: Cabin;
   font-size: 19px;
   color: #bdd3df;
 }
 
-.home__search::-ms-input-placeholder {
+.search__input::-ms-input-placeholder {
   font-family: Cabin;
   font-size: 19px;
   color: #bdd3df;
 }
 
-.home__search::placeholder {
+.search__input::placeholder {
   font-family: Cabin;
   font-size: 19px;
   color: #bdd3df;
@@ -118,10 +128,14 @@
 .search__img {
   position: absolute;
   z-index: 10;
+  top: 18.5px;
+  left: 30px;
 }
 
 .search__btn {
-  position: relative;
+  position: absolute;
+  top: 4px;
+  right: 4px;
   width: 88px;
   height: 54px;
   border-radius: 50px;
@@ -143,4 +157,298 @@
 
 .search__btn-img {
   position: absolute;
+}
+
+.home__img {
+  position: absolute;
+  left: 569px;
+  top: 222px;
+}
+
+.home__circle1 {
+  position: absolute;
+  left: -20px;
+  top: 492px;
+}
+
+.home__circle2 {
+  position: absolute;
+  left: 191px;
+  top: 199px;
+}
+
+.home__circle3 {
+  position: absolute;
+  right: 38px;
+  top: 190px;
+}
+
+/*Инфо1*/
+.info1__container {
+  position: relative;
+  width: 1164px;
+  margin: 0 auto;
+  padding-top: 119px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info1__circle1 {
+  position: absolute;
+  left: -12px;
+  top: 33px;
+}
+
+.info1__circle2 {
+  position: absolute;
+  right: 107px;
+  top: 193px;
+}
+
+.info1__circle3 {
+  position: absolute;
+  left: 0;
+  top: 703px;
+}
+
+.info1__header {
+  font-family: Gilroy;
+  font-size: 50px;
+  font-weight: 800;
+  color: #4f79a4;
+  line-height: 61px;
+}
+
+.info1__sub-header {
+  font-family: Gilroy;
+  font-size: 50px;
+  font-weight: 300;
+  color: #4f79a4;
+  line-height: 61px;
+}
+
+.info1__img {
+  margin-top: 46px;
+}
+
+/*Инфо2*/
+.info2__container {
+  position: relative;
+  width: 1164px;
+  margin: 41px auto 0;
+}
+
+.info2__bg {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+.info2__block1 {
+  position: absolute;
+  left: 190px;
+  top: 535px;
+}
+
+.info2__block2 {
+  position: absolute;
+  left: 663px;
+  top: 1210px;
+}
+
+.info2__block1,
+.info2__block2 {
+  width: 335px;
+}
+
+.block1__header,
+.block2__header {
+  font-family: Gilroy;
+  font-size: 34px;
+  font-weight: 800;
+  color: #4f79a4;
+  line-height: 1.2;
+}
+
+.block1__sub-header,
+.block2__sub-header {
+  font-family: Gilroy;
+  font-size: 28px;
+  font-weight: 300;
+  color: #4f79a4;
+  line-height: 1.2;
+}
+
+.block1__text,
+.block2__text {
+  margin-top: 20px;
+  font-family: Cabin;
+  font-size: 14px;
+  line-height: 1.82;
+  color: #a5adb1;
+}
+
+/*ПЛАНШЕТЫ*/
+@media screen and (min-width: 768px) and (max-width: 1164px) {
+  /*Главная страница*/
+  .home__container {
+    width: 768px;
+    overflow: hidden;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+  }
+  .home__img {
+    left: 450px;
+    width: 565px;
+    height: 389px;
+    z-index: -10;
+  }
+  /*Инфо1*/
+  .info1__container {
+    width: 768px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .info1__circle2 {
+    right: 20px;
+  }
+  /*Инфо2*/
+  .info2__container {
+    width: 768px;
+  }
+  .info2__bg {
+    width: 100%;
+  }
+  .info2__block1,
+  .info2__block2 {
+    display: none;
+  }
+}
+
+/*МОБИЛЬНИКИ*/
+@media screen and (max-width: 767px) {
+  /*Главная страница*/
+  .home__container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+    width: 100%;
+  }
+  .home__img {
+    display: none;
+  }
+  .home__sub-container1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home__logo {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .home__link {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+  .home__sub-container2 {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 60px;
+  }
+  .home__header {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+  .home__text {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .search__input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 45px;
+    padding-right: 60px;
+  }
+  .search__input::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  .search__input:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  .search__input::-ms-input-placeholder {
+    font-size: 16px;
+  }
+  .search__input::placeholder {
+    font-size: 16px;
+  }
+  .search__img {
+    left: 15px;
+    top: 8px;
+  }
+  .search__btn {
+    height: 35px;
+    width: 50px;
+    top: 2px;
+    right: 3px;
+  }
+  .search__btn-img {
+    width: 20px;
+    height: 20px;
+  }
+  /*Инфо1*/
+  .info1__container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 70px;
+  }
+  .info1__img {
+    width: 100%;
+  }
+  .info1__circle1,
+  .info1__circle2,
+  .info1__circle3 {
+    display: none;
+  }
+  .info1__header {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1;
+  }
+  .info1__sub-header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1;
+  }
+}
+
+/*Для картинки .home__img*/
+@media screen and (min-width: 1164px) and (max-width: 1260px) {
+  .home__img {
+    width: 565px;
+    height: 389px;
+  }
 }
