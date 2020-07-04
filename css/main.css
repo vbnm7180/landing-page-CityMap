@@ -9,4 +9,138 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: -10;
+}
+
+.home__container {
+  width: 1164px;
+  margin: 0 auto;
+  padding-top: 47px;
+}
+
+.home__sub-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home__logo {
+  margin-right: auto;
+}
+
+.home__link {
+  font-family: Cabin;
+  font-size: 18px;
+  color: #ffffff;
+  margin-right: 35px;
+}
+
+.home__sub-container2 {
+  width: 561px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin-top: 220px;
+}
+
+.home__header {
+  font-family: Gilroy;
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.home__text {
+  font-family: Cabin;
+  font-size: 16px;
+  line-height: 1.58;
+  color: #b7e6ff;
+  margin-top: 40px;
+  margin-bottom: 58px;
+}
+
+.home__search {
+  width: 475px;
+  height: 62px;
+  border-radius: 31px;
+  background-color: #ffffff;
+  position: relative;
+  padding-left: 69px;
+  font-family: Cabin;
+  font-size: 19px;
+  color: #000;
+}
+
+.home__search::-webkit-input-placeholder {
+  font-family: Cabin;
+  font-size: 19px;
+  color: #bdd3df;
+}
+
+.home__search:-ms-input-placeholder {
+  font-family: Cabin;
+  font-size: 19px;
+  color: #bdd3df;
+}
+
+.home__search::-ms-input-placeholder {
+  font-family: Cabin;
+  font-size: 19px;
+  color: #bdd3df;
+}
+
+.home__search::placeholder {
+  font-family: Cabin;
+  font-size: 19px;
+  color: #bdd3df;
+}
+
+.search__img {
+  position: absolute;
+  z-index: 10;
+}
+
+.search__btn {
+  position: relative;
+  width: 88px;
+  height: 54px;
+  border-radius: 50px;
+  background-color: #13f1fc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search__btn-img {
+  position: absolute;
 }
