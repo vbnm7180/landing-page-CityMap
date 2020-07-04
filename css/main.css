@@ -334,7 +334,15 @@
   }
   .info2__block1,
   .info2__block2 {
-    display: none;
+    width: 295px;
+  }
+  .info2__block1 {
+    left: 70px;
+    top: 355px;
+  }
+  .info2__block2 {
+    left: 420px;
+    top: 800px;
   }
 }
 
