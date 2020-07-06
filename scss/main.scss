@@ -270,22 +270,17 @@
 
 .app {
     position: relative;
+    padding-top: 230px;
 }
 
 .app__bg {
-    //position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
 }
 
-.app_container {
-    width: 1164px;
-    margin: auto 0;
-    padding-top: 198px;
+.app__block {
+    position: absolute;
+    left: 8.5%;
 }
-
-.app__block {}
 
 .app__header {}
 

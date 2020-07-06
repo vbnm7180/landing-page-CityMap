@@ -314,6 +314,7 @@
 }
 
 .app__bg {
+  display: none;
   width: 100%;
   top: 0;
   left: 0;
@@ -323,6 +324,7 @@
   width: 1164px;
   margin: auto 0;
   padding-top: 198px;
+  display: none;
 }
 
 /*ПЛАНШЕТЫ*/
