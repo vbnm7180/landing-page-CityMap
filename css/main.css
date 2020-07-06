@@ -459,13 +459,14 @@
   }
   .app__block {
     top: 230px;
+    width: 350px;
   }
   .app__text {
     margin-bottom: 26px;
   }
   .app__btn-andr,
   .app__btn-ios {
-    width: 170px;
+    width: 150px;
     height: 40px;
   }
 }
@@ -634,6 +635,55 @@
   }
   .info2__mob-img5 {
     margin-bottom: 40px;
+  }
+  /*Приложение*/
+  .app {
+    padding-top: 150px;
+    overflow: hidden;
+  }
+  .app__bg {
+    width: 1100px;
+    height: 620px;
+  }
+  .app__phone {
+    width: 300px;
+    top: 100px;
+    left: 30%;
+  }
+  .app__block {
+    width: 100%;
+    top: 400px;
+    padding-right: 15px;
+    padding-left: 15px;
+    left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .app__header {
+    width: 100%;
+    font-size: 34px;
+    text-align: center;
+  }
+  .app__text {
+    width: 100%;
+    margin-bottom: 26px;
+    text-align: center;
+  }
+  .app__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .app__btn-andr,
+  .app__btn-ios {
+    width: 170px;
+    height: 40px;
+  }
+  .app__btn-ios {
+    margin-left: 0;
+    margin-top: 20px;
   }
 }
 
