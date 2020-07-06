@@ -311,20 +311,67 @@
 /*Приложение*/
 .app {
   position: relative;
+  padding-top: 230px;
 }
 
 .app__bg {
-  display: none;
   width: 100%;
-  top: 0;
-  left: 0;
 }
 
-.app_container {
-  width: 1164px;
-  margin: auto 0;
-  padding-top: 198px;
-  display: none;
+.app__phone {
+  position: absolute;
+  left: 8.5%;
+  top: 154px;
+}
+
+.app__block {
+  position: absolute;
+  left: 49.3%;
+  top: 368px;
+  width: 374px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.app__header {
+  font-family: Gilroy;
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.app__text {
+  margin-top: 26px;
+  margin-bottom: 50px;
+  font-family: Cabin;
+  font-size: 14px;
+  line-height: 1.58;
+  color: #b7e6ff;
+}
+
+.app__btn-andr,
+.app__btn-ios {
+  width: 181px;
+  height: 49px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 24.5px;
+  border: solid 2px rgba(19, 241, 252, 0.2);
+  background-color: rgba(19, 241, 252, 0.2);
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.58;
+  letter-spacing: 1.4px;
+  color: #ffffff;
 }
 
 /*ПЛАНШЕТЫ*/

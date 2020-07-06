@@ -277,18 +277,55 @@
     width: 100%;
 }
 
-.app__block {
+.app__phone {
     position: absolute;
     left: 8.5%;
+    top: 154px;
 }
 
-.app__header {}
+.app__block {
+    position: absolute;
+    left: 49.3%;
+    top: 368px;
+    width: 374px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
 
-.app__text {}
+.app__header {
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.app__text {
+    margin-top: 26px;
+    margin-bottom: 50px;
+    font-family: Cabin;
+    font-size: 14px;
+    line-height: 1.58;
+    color: #b7e6ff;
+}
 
 .app__buttons {}
 
-.app__btn-andr {}
+.app__btn-andr,
+.app__btn-ios {
+    width: 181px;
+    height: 49px;
+    object-fit: contain;
+    border-radius: 24.5px;
+    border: solid 2px rgba(19, 241, 252, 0.2);
+    background-color: rgba(19, 241, 252, 0.2);
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.58;
+    letter-spacing: 1.4px;
+    color: #ffffff;
+}
 
 .btn-andr__img {}
 
