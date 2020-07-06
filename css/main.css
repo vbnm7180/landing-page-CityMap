@@ -694,3 +694,22 @@
     height: 389px;
   }
 }
+
+/*Для картинки .app__phone*/
+@media screen and (max-width: 370px) {
+  .app__phone {
+    left: 7%;
+  }
+}
+
+@media screen and (min-width: 371px) and (max-width: 450px) {
+  .app__phone {
+    left: 13%;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 620px) {
+  .app__phone {
+    left: 22%;
+  }
+}
