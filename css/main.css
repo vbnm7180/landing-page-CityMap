@@ -623,6 +623,10 @@
     width: 150px;
     height: 40px;
   }
+  /*Подвал*/
+  .footer__container {
+    width: 768px;
+  }
 }
 
 /*МОБИЛЬНИКИ*/
