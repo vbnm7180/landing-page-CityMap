@@ -285,7 +285,7 @@
 
 .app__block {
     position: absolute;
-    left: 49.3%;
+    left: 55%;
     top: 368px;
     width: 374px;
     display: flex;
@@ -309,12 +309,17 @@
     color: #b7e6ff;
 }
 
-.app__buttons {}
+.app__buttons {
+    display: flex;
+}
 
 .app__btn-andr,
 .app__btn-ios {
     width: 181px;
     height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     object-fit: contain;
     border-radius: 24.5px;
     border: solid 2px rgba(19, 241, 252, 0.2);
@@ -325,13 +330,22 @@
     line-height: 1.58;
     letter-spacing: 1.4px;
     color: #ffffff;
+    &:hover {
+        opacity: 0.7;
+    }
 }
 
-.btn-andr__img {}
+.btn-andr__img {
+    margin-right: 10px;
+}
 
-.app__btn-ios {}
+.app__btn-ios {
+    margin-left: 12px;
+}
 
-.btn-ios__img {}
+.btn-ios__img {
+    margin-right: 10px;
+}
 
 
 /*ПЛАНШЕТЫ*/
@@ -380,6 +394,24 @@
     .info2__block2 {
         left: 420px;
         top: 800px;
+    }
+    /*Приложение*/
+    .app {
+        padding-top: 150px;
+    }
+    .app__phone {
+        width: 400px;
+    }
+    .app__block {
+        top: 230px;
+    }
+    .app__text {
+        margin-bottom: 26px;
+    }
+    .app__btn-andr,
+    .app__btn-ios {
+        width: 170px;
+        height: 40px;
     }
 }
 
