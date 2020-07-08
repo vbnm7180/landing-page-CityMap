@@ -52,7 +52,6 @@
 }
 
 .home__sub-container2 {
-  width: 561px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,6 +65,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  width: 561px;
   margin-top: 220px;
 }
 
@@ -92,10 +92,10 @@
 .search__input {
   width: 475px;
   height: 62px;
-  border-radius: 31px;
-  background-color: #ffffff;
   padding-left: 69px;
   padding-right: 105px;
+  border-radius: 31px;
+  background-color: #ffffff;
   font-family: Cabin;
   font-size: 19px;
   color: #000;
@@ -489,14 +489,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 304px;
-  width: 397px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  margin-left: 304px;
+  width: 397px;
 }
 
 .footer__text {
@@ -585,11 +585,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 637px;
+  margin-top: 76px;
   font-family: Cabin;
   line-height: 1.5;
   color: #bdd3df;
-  margin-left: 637px;
-  margin-top: 76px;
 }
 
 .author__name {
@@ -603,23 +603,23 @@
 
 .footer__about-btn {
   display: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
   font-family: Cabin;
   font-size: 16px;
   color: #4f79a4;
   background-color: #ffffff;
   cursor: pointer;
-  margin-top: 40px;
-  margin-bottom: 20px;
 }
 
 .footer__help-btn {
   display: none;
+  margin-bottom: 20px;
   font-family: Cabin;
   font-size: 16px;
   color: #4f79a4;
   background-color: #ffffff;
   cursor: pointer;
-  margin-bottom: 20px;
 }
 
 /*ПЛАНШЕТЫ*/
@@ -751,10 +751,10 @@
     height: 700px;
   }
   .home__container {
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 30px;
-    width: 100%;
     padding-bottom: 260px;
   }
   .home__img {
@@ -797,9 +797,9 @@
   .search__input {
     width: 300px;
     height: 40px;
-    font-size: 16px;
     padding-left: 45px;
     padding-right: 60px;
+    font-size: 16px;
   }
   .search__input::-webkit-input-placeholder {
     font-size: 16px;
