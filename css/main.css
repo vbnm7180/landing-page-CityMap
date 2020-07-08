@@ -324,6 +324,48 @@
   top: 154px;
 }
 
+.app__leaf {
+  position: absolute;
+  left: 61.8%;
+  top: 220px;
+}
+
+.app__circle1 {
+  position: absolute;
+  left: 64.2%;
+  top: 237px;
+}
+
+.app__circle2 {
+  position: absolute;
+  right: 8.2%;
+  top: 324px;
+}
+
+.app__circle3 {
+  position: absolute;
+  left: 13.3%;
+  top: 902px;
+}
+
+.app__circle4 {
+  position: absolute;
+  left: 73.5%;
+  top: 936px;
+}
+
+.app__circle5 {
+  position: absolute;
+  left: 76.7%;
+  top: 976px;
+}
+
+.app__circle6 {
+  position: absolute;
+  left: 83.7%;
+  top: 942px;
+}
+
 .app__block {
   position: absolute;
   left: 55%;
@@ -583,6 +625,9 @@
 /*ПЛАНШЕТЫ*/
 @media screen and (min-width: 768px) and (max-width: 1164px) {
   /*Главная страница*/
+  .home {
+    height: auto;
+  }
   .home__container {
     width: 768px;
     overflow: hidden;
@@ -597,14 +642,20 @@
     height: 389px;
     z-index: -10;
   }
+  .home__bg {
+    height: 950px;
+  }
   /*Инфо1*/
   .info1__container {
     width: 768px;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 250px;
   }
-  .info1__circle2 {
-    right: 20px;
+  .info1__circle1,
+  .info1__circle2,
+  .info1__circle3 {
+    display: none;
   }
   /*Инфо2*/
   .info2__container {
@@ -670,17 +721,41 @@
   .footer__author {
     margin-top: 30px;
     margin-left: 300px;
+    margin-bottom: 20px;
+  }
+  .app__leaf {
+    position: absolute;
+    left: 61.8%;
+    top: 220px;
+  }
+  .app__leaf,
+  .app__circle1,
+  .app__circle2,
+  .app__circle3,
+  .app__circle4,
+  .app__circle5,
+  .app__circle6 {
+    display: none;
   }
 }
 
 /*МОБИЛЬНИКИ*/
 @media screen and (max-width: 767px) {
   /*Главная страница*/
+  .home {
+    height: auto;
+    overflow: hidden;
+  }
+  .home__bg {
+    width: 1440px;
+    height: 700px;
+  }
   .home__container {
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 30px;
     width: 100%;
+    padding-bottom: 260px;
   }
   .home__img {
     display: none;
@@ -757,7 +832,7 @@
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 70px;
+    padding-top: 0;
   }
   .info1__img {
     width: 100%;
@@ -936,6 +1011,7 @@
   .footer__author {
     margin-top: 0;
     margin-left: 0;
+    margin-bottom: 20px;
   }
   .footer__about-btn {
     display: block;
@@ -945,6 +1021,15 @@
   }
   .footer__google {
     margin-right: 0;
+  }
+  .app__leaf,
+  .app__circle1,
+  .app__circle2,
+  .app__circle3,
+  .app__circle4,
+  .app__circle5,
+  .app__circle6 {
+    display: none;
   }
 }
 
