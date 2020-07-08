@@ -430,7 +430,7 @@
     }
 }
 
-.footer__links1 {
+.footer__links1-wrap {
     display: flex;
     flex-direction: column;
     margin-left: 104px;
@@ -445,7 +445,7 @@
     margin-bottom: 20px;
 }
 
-.footer__links2 {
+.footer__links2-wrap {
     display: flex;
     flex-direction: column;
     margin-left: 128px;
@@ -468,6 +468,28 @@
     font-weight: 600;
     line-height: 1.58;
     color: #13f1fc;
+}
+
+.footer__about-btn {
+    display: none;
+    font-family: Cabin;
+    font-size: 16px;
+    color: #4f79a4;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer__help-btn {
+    display: none;
+    font-family: Cabin;
+    font-size: 16px;
+    color: #4f79a4;
+    background-color: #ffffff;
+    cursor: pointer;
+    //margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -557,8 +579,8 @@
         margin-left: 180px;
         width: 200px;
     }
-    .footer__links1,
-    .footer__links2 {
+    .footer__links1-wrap,
+    .footer__links2-wrap {
         margin-left: 50px;
     }
     .footer__author {
@@ -752,6 +774,56 @@
     .app__btn-ios {
         margin-left: 0;
         margin-top: 20px;
+    }
+    /*Подвал*/
+    .footer__left {
+        display: none;
+    }
+    .footer__right {
+        display: none;
+    }
+    .footer__container {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+    }
+    .footer__info {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .footer__text {
+        text-align: center;
+    }
+    .footer__links1,
+    .footer__links2 {
+        display: none;
+    }
+    .footer__links1-wrap {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .footer__links2-wrap {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .footer__author {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .footer__about-btn {
+        display: block;
+    }
+    .footer__help-btn {
+        display: block;
+    }
+    .footer__google {
+        margin-right: 0;
     }
 }
 
